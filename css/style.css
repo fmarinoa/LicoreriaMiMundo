@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+#anuncioCel{
+  display: none;
+}
+main {
+  margin-top: 50px; 
+}
+
+/*navegador*/
+
+.nav p { display: inline; }
+nav a:link, nav a:visited { text-decoration: none; color:   #F7D748; background-color: #625f20; margin: 0.3em;border-radius: 20px; }
+
+section{    
+  width:70%; background-color: #625f20; float: left; margin: 10px; border-radius: 20px;color: #ffd500;}
+section h1 { text-align: center;font-weight: bolder;font-size: xx-large; }
+section h2 { text-align: left; font-weight: bolder;font-size: xx-large;  }
+section p{text-align: left;font-weight: bolder;font-size: x-large; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);}
+
+
+
+aside { width: 25%; float: left; }
+video{float:left;width: 100%; border-radius: 20px; padding: 10px;}
+#anuncio { margin: 10px;}
+
+.carta1 {
+  margin:20px; padding: 10px;border:2px solid#a79028;border-radius: 20px;
+  background: url(cerveza.jpg)no-repeat;
+  background-position: center center;
+  background-size: cover;}
+.carta2 {box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin:20px; padding: 10px;border:2px solid#a79028;border-radius: 20px;
+    background: url(vino.jpg)no-repeat;
+    background-position: center ;
+    background-size: cover;}
+.carta3 {
+      margin:20px; padding: 10px;border:2px solid#a79028;border-radius: 20px;
+      background: url(destilado.jpg)no-repeat;
+      
+      background-position: center center;
+      background-size: cover;}
+
+
+footer { clear: both; background-color: #625f20;padding: 1em; }
+footer .footer1{width: 30%;float: left;margin: 10px ;padding: 0.5em;color: white; border:2px solid#a79028;border-radius: 20px;}
+footer .footer2{width: 30%;float: left;margin: 10px ;padding: 0.5em;color: white; border:2px solid#a79028;border-radius: 20px;}
+
+
+@media (max-width: 767px) {
+  main {
+    margin-top: 58px; 
+  }
+  section{float: right; margin-top:10px;margin-right: 0px; width: 100%;}
+  section p{
+    display: none;
+  }
+  section h2{text-align: center; font-size: 3em;font-weight: bolder; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);}
+
+  aside{
+    width: 100%;
+  }
+
+  #anuncio{display: none;}
+  #video video{display: none;}
+  #anuncioCel{display: block; margin: 10px; text-align: center; }
+  video{width: 50%; border-radius: 15px; padding: 10px; float: inherit;padding: 5px;}
+  #anuncioCel img{width: 50%; border-radius: 15px; padding: 10px; float: inherit;padding: 5px;margin-left: 25%}
+
+  footer .footer1{width: 100%;}
+
+  footer .footer2{width: 100%;}
+
+  
+}

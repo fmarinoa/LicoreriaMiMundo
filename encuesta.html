@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licorería MiMundo</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/encuesta.css" rel="stylesheet" type="text/css" />
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet"
+      type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet"
+      type="text/css">
+    <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet"
+      type="text/css">
+
+    <link href="css/bootstrap-3.3.4.css" rel="stylesheet" type="text/css">
+    <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"
+      type="text/javascript"></script>
+  </head>
+  <body>
+
+    <header>
+      <nav class="nav navbar-default navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" class="rounded">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#topFixedNavbar1"><span
+              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+              class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th"></span></a>
+        </div>
+        <!-- <div class="panel-heading">  -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+            <!-- <ul class="nav nav-pills"> -->
+            <li><a href="index.html"><b><span class="glyphicon glyphicon-home"></span>
+                  INICIO</b></a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle"
+                data-toggle="dropdown"><b><span class=" glyphicon
+                    glyphicon-book"
+                    aria-hidden="true"></span> ¿Quienes Somos?</b><span
+                  class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color: #a79028; ">
+                
+                <li><a href='albumDeFotos/index.html' style="color: #F7D748;">Album de fotos</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle"
+                data-toggle="dropdown"><b><span class=" glyphicon
+                    glyphicon-shopping-cart" aria-hidden="true"></span>
+                  Productos</b><span
+                  class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color: #a79028; ">
+                <li><a href='cerveza.html' style="color: #F7D748;">Cervezas</a></li>
+                <li><a href='vino.html'style="color: #F7D748;">Vinos</a></li>
+                <li><a href='destilado.html'style="color: #F7D748;">Destilados</a></li>
+              </ul>
+            </li>
+
+                    <li><a href="encuesta.html"><b><span class="glyphicon glyphicon-check"
+                      aria-hidden="true"></span> Ayudanos a mejorar</b></a></li>
+
+                      <li><a href="login.html"> <b><span class="glyphicon
+                        glyphicon-list-alt" aria-hidden="true"></span> Intranet</b></a>
+              </li>
+
+          </div>
+
+        </nav>
+        
+      </header>
+      <main>
+        <div class ="title"><br>
+        <h1>Ayudanos a mejorar</h1>
+        </div>
+      </main>
+      <div class="encuesta">
+     <form name="frmencuesta" id="frmencuesta" action="mailto:hansedd@hotmail.com" method="post" enctype="text/plain">
+        <h1>Encuesta de satisfacción</h1>
+    <p>Gracias por visitar nuestra tienda en línea. Nos gustaría conocer su opinión sobre su experiencia de compra para poder mejorar nuestros servicios. Por favor, tómese unos minutos para completar esta encuesta de satisfacción.</p>
+   
+      <h2>Información personal</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" class="form-control" required><br/>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" class="form-control"  required><br/>
+      <label for="email">Número telefónico:</label>
+      <input type="tel" id="telefono" name="telefono" class="form-control"  required><br/>
+      <label for="pais">De donde nos visitas:</label>
+        <select class="form-select" aria-label="Default select example" id="pais"name="pais" >
+            <option value="peru" selected>Perú</option>
+            <option value="chile" >Chile</option>
+            <option value="brazil" >Brazil</option>
+            <option value="japon" >Japón</option>
+            <option value="usa" >USA</option>
+        </select>
+        
+      
+
+      <h2><br>Experiencia de compra</h2>
+      <p>Por favor, seleccione la opción que mejor describa su experiencia de compra en nuestra tienda en línea:</p>
+      <input type="radio" id="excelente" name="experiencia" value="excelente">
+      <label for="excelente">Excelente</label><br>
+      <input type="radio" id="bueno" name="experiencia" value="bueno">
+      <label for="bueno">Bueno</label><br>
+      <input type="radio" id="regular" name="experiencia" value="regular">
+      <label for="regular">Regular</label><br>
+      <input type="radio" id="malo" name="experiencia" value="malo">
+      <label for="malo">Malo</label><br>
+
+      <h2>Productos</h2>
+      <p>Por favor, seleccione la opción que mejor describa su opinión sobre nuestros productos:</p>
+      <input type="radio" id="calidad" name="productos" value="calidad">
+      <label for="calidad">Calidad excelente</label><br>
+      <input type="radio" id="bueno" name="productos" value="bueno">
+      <label for="bueno">Buenos productos</label><br>
+      <input type="radio" id="regular" name="productos" value="regular">
+      <label for="regular">Productos regulares</label><br>
+      <input type="radio" id="malo" name="productos" value="malo">
+      <label for="malo">Productos malos</label><br>
+
+      <h2>Servicio al cliente</h2>
+      <p>Por favor, seleccione la opción que mejor describa su opinión sobre nuestro servicio al cliente:</p>
+      <input type="radio" id="excelente" name="servicio" value="excelente">
+      <label for="excelente">Excelente servicio al cliente</label><br>
+      <input type="radio" id="bueno" name="servicio" value="bueno">
+      <label for="bueno">Buen servicio al cliente</label><br>
+      <input type="radio" id="regular" name="servicio" value="regular">
+      <label for="regular">Servicio al cliente regular</label><br>
+      <input type="radio" id="malo" name="servicio" value="malo">
+      <label for="regular">Servicio al cliente malo</label><br>
+
+      <h2>Dejanos tu comentario</h2>
+      <textarea id="comentario" name="comentario" rows="5" cols="54"></textarea><br><br>
+        <input type="submit" class="btn btn-primary"value="Enviar comentario"> | <input type="reset"class="btn btn-primary" value="Nuevo">
+    </form>
+</div>
+      
+
+
+
+      <footer>
+        <div class="footer1">
+          <p>
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Teléfono: +51 932 337 417
+                <span class=" aria-hidden=true"></span><br>
+                <span class="glyphicon glyphicon-inbox" aria-hidden="true"></span> Correo: info@licoreriamimundo.com
+                <span class=" aria-hidden=true"></span><br>
+                Horarios de atención: <br>Lunes a Domingo las 24 horas 
+                </p>
+            </p>          
+          </div >
+        
+          <div class="footer2">
+            <p">
+             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>    Tienda: Av. Tomas Valle 1075, San Martín de Porres 15103
+            <br>Ubícanos en nuetras redes sociales:
+            <br>
+          <a href="#" class="normaltip" title="Facebook"><img src="img/icon1.gif" alt=""></a>
+          <a href="#" class="normaltip" title="Twitter"><img src="img/icon3.gif" alt=""></a>
+          <a href="#" class="normaltip" title="WhatsApp"><img src="img/icon5.gif" alt=""></a>
+           </p></div>
+            
+          
+
+           <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499515.1335406162!2d-77.63162033437506!3d-12.01168359999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ceee5e3ca987%3A0x6692197b089bba0!2sIDAT%20Tom%C3%A1s%20Valle!5e0!3m2!1ses!2spe!4v1676853947533!5m2!1ses!2spe" width="400" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border-radius: 10px;" ></iframe></div>
+
+          </div>
+          <p style="color: white;">&copy; Licorería MiMundo</p>
+    </footer>
+
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <!-- <script src="js/bootstrap.js" type="text/javascript"></script> -->
+    <script src="js/bootstrap-3.3.4.js" type="text/javascript"></script>
+  </body>
+</html>
