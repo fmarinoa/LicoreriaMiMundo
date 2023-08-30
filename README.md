@@ -27,10 +27,6 @@
 
 ¡No esperes más! Explora [Mi Mundo Licorería](https://licoreriamimundo.netlify.app/) ahora mismo y disfruta de una experiencia única en el mundo de las bebidas.
 
-## Contribuye 🤝
-
-¿Quieres ser parte de la diversión? ¡Te invitamos a contribuir! Si tienes ideas para mejorar nuestro sitio web o quieres colaborar en su desarrollo, consulta nuestra [Guía de Contribución](CONTRIBUTING.md).
-
 ## Contáctanos 📧
 
 Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo:
