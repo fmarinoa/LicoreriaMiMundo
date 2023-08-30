@@ -2,7 +2,7 @@
 
 ¡Salud! Este es el emocionante mundo de **Mi Mundo Licorería**, tu destino virtual para explorar y disfrutar de una experiencia única en el mundo de las bebidas. 🌍🍹
 
-[![Vista previa de Mi Mundo Licorería](https://licoreriamimundo.netlify.app/)
+[Vista previa de Mi Mundo Licorería](https://licoreriamimundo.netlify.app/)
 
 ## 🌟 Características Destacadas
 
